@@ -6,8 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <!-- section>(.container>h1.head+p.head-info+(form.main>label.accept>a.form-link*2))+(p.footer>a.footer-link) -->
+    <section>
+        <div class="container">
+              <fieldset><legend><h1 class="head">&nbsp Register &nbsp</h1></legend>
+            <p class="head-info">Create your account. It's free and only takes a minute.</p></fieldset> 
+            <form action="" class="main">
+                <div class="name-container"><input type="text" placeholder="First Name" class="name first" autofocus><input type="text" placeholder="Last Name" class="name last"></div>
+                <input type="text" placeholder="Email" class="main-input"><input type="password" placeholder="Password" class="main-input"><input type="password" placeholder="Confirm Password" class="main-input">
+                <label for="checkbox" class="accept"> <input type="checkbox" name="" id="checkbox"> I accept the <a href="" class="form-link">Terms of Use</a> & <a href="" class="form-link">Privacy Policy</a></label>
+                <input class="button" type="submit" value="Register Now">
+            </form>
+        </div>
+        <p class="footer">Already have an account?&nbsp<a href="" class="footer-link">Sing in</a></p>
+    </section>
 </body>
 </html>
