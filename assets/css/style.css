@@ -36,9 +36,12 @@ h1, .button{
 .head-info, label{
 font-size: 0.85rem;
 }
+.head-info{
+    margin: 0 auto 35px;
+}
 fieldset{
     width: 355px;
-    margin: 0 auto;
+    margin: 35px auto 0;
     border: 1px solid #63738A;
     border-left: none;
     border-right: none;
@@ -57,8 +60,12 @@ p, .head-info{
 .name-container {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
+.name+.name{
+    margin-left: 56px;
+}
+
 .name-container>*,
 .main-input{
     
